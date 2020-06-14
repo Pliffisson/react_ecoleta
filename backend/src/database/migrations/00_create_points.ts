@@ -15,8 +15,6 @@ export async function up( knex: Knex ){
     })
 }
 
-
-
 export async function down( knex: Knex ){
     // Deleta uma tabela
     return knex.schema.dropTable('points');
